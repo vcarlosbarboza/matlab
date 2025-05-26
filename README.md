@@ -1,11 +1,11 @@
-# 📊 Simulación del Crecimiento Poblacional en Italia (2019–2034)
-## 🧪 Basado en un Modelo Logístico con Analogía Masa-Resorte-Amortiguador
+# Simulación del Crecimiento Poblacional en Italia (2019–2034)
+##  Basado en un Modelo Logístico con Analogía Masa-Resorte-Amortiguador
 
 Este proyecto simula el comportamiento poblacional de Italia entre 2019 y 2034 utilizando un **modelo logístico de crecimiento** y lo interpreta mediante una analogía con un **sistema masa–resorte–amortiguador**.
 
 ---
 
-## 📌 ¿Qué hace este código?
+## ¿Qué hace este código?
 
 - Toma datos reales de población de Italia (2019–2023).
 - Ajusta un modelo logístico con parámetros calibrados:
@@ -19,13 +19,13 @@ Este proyecto simula el comportamiento poblacional de Italia entre 2019 y 2034 u
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 
 - MATLAB 
 
 ---
 
-## 📈 ¿Qué representa cada parte?
+##  ¿Qué representa cada parte?
 
 | Componente del modelo | Significado                         | Analogía física                 |
 |-----------------------|-------------------------------------|----------------------------------|
@@ -35,7 +35,7 @@ Este proyecto simula el comportamiento poblacional de Italia entre 2019 y 2034 u
 
 ---
 
-## 🧠 ¿Por qué usar la analogía masa–resorte?
+##  ¿Por qué usar la analogía masa–resorte?
 
 Aunque el modelo logístico es de primer orden, se puede **interpretar conceptualmente** como un sistema físico amortiguado:
 - La **población oscila hacia un equilibrio** (K), al igual que una masa vuelve a su posición de reposo.
@@ -43,7 +43,7 @@ Aunque el modelo logístico es de primer orden, se puede **interpretar conceptua
 
 ---
 
-## 📊 Salidas del script
+##  Salidas del script
 
 - **Gráfica de población real vs simulada**
 - **Predicción extendida a 15 años**
